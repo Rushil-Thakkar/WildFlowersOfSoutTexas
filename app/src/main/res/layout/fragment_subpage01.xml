@@ -1,0 +1,18 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.Subpage01">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="italic"
+        android:text="South Texas literally explodes with color and life during wildflower season. Many of the flowers you will see featured here will be very familiar to you. Learn more about the native flora and see if you can spot them out and about in South Texas."
+        />
+
+</FrameLayout>

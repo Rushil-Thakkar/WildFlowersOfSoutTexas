@@ -1,0 +1,43 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="layout.Subpage02">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:text="Dr. Xi received his M.S. in Botany from Southwest University, China. He then received his Ph.D in Biology from the University of North Carolina at Chapel Hill. He is teaching Plant Taxonomy and Plant Systematics in the department. His main research focus at this time is on plant biology and ecology, biodiversity conservation and ecosystem management, climate change biology and ecoinformatics."
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:id="@+id/textView3"
+        android:background="?android:attr/actionModeSplitBackground" />
+
+    <TextView
+        android:text="Dr. Weimin Xi \n Curator of the Vascular Plants Herbarium\nAssistant Professor of Biology Department of Biological and Health Sciences Texas A&amp;M University - Kingsville Kingsville, TX 78363\nweimin.xi@tamuk.edu\n(316) 593-2758"
+        android:id="@+id/txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="209dp"
+        android:layout_height="179dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="top"
+        app:srcCompat="@drawable/dr_xi"
+        android:id="@+id/imageView" />
+
+
+</FrameLayout>
